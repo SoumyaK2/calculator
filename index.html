@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body {
+            min-height: 100vh;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(45, 145, 110, 0.798);
+        }
+        .input{
+            margin: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Calculate your number</h1>
+        <form action="/" method="post">
+            <div class="input">
+                <input type="text" name="n1" placeholder="First number">
+                <input type="text" name="n2" placeholder="Second number">
+            </div>
+
+            <button type="submit" name="submit" value="add"> + </button>
+            <button type="submit" name="submit" value="sub"> - </button>
+            <button type="submit" name="submit" value="mul"> x </button>
+            <button type="submit" name="submit" value="div"> / </button>
+        </form>
+    </div>
+</body>
+
+</html>
